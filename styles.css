@@ -1,0 +1,10 @@
+body.dark-mode {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  label, input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+  }
+  

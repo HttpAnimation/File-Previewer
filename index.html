@@ -4,10 +4,19 @@
 	<title>File Previewer</title>
 </head>
 <body>
+	<link rel="stylesheet" href="styles.css">
 	<form action="preview.php" method="post" enctype="multipart/form-data">
 		<label for="file">Select a file:</label><br>
 		<input type="file" name="file"><br><br>
 		<input type="submit" value="Preview">
 	</form>
+	<script>
+		function toggleDarkMode() {
+		  var body = document.querySelector("body");
+		  body.classList.toggle("dark-mode");
+		}
+		</script>
+		
+		<button onclick="toggleDarkMode()">Toggle Dark Mode</button>		
 </body>
 </html>
